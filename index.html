@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+   <div class="mainFirst">
+    <h1>LigthBox</h1>
+    <div class="row">
+       <div class="column">
+           <img src="./image/img.jpg" onclick="openmodal();current(1)" alt="" class="firstimg">
+       </div>
+       <div class="column">
+           <img src="./image/img2.jpg" onclick="openmodal();current(2)" alt="" class="firstimg">
+       </div>
+       <div class="column">
+           <img src="./image/img3.jpg" onclick="openmodal();current(3)" alt="" class="firstimg">
+       </div>
+       <div class="column">
+           <img src="./image/img4.jpg" onclick="openmodal();current(4)" alt="" class="firstimg">
+       </div>
+       <div class="column">
+           <img src="./image/img5.jpg" onclick="openmodal();current(5)" alt="" class="firstimg">
+       </div>
+       <div class="column">
+           <img src="./image/img6.jpg" onclick="openmodal();current(6)" alt="" class="firstimg">
+       </div>
+    </div>
+   </div>
+
+
+      <div class="blackbery">
+        <div class="secondDiv">
+            <span onclick="closemodal()" class="button">&times;</span>
+            <div class="myslide">
+                <div class="text">1 / 6</div>
+                <img src="./image/img.jpg" alt="">
+            </div>
+            <div class="myslide">
+                <div class="text">2 / 6</div>
+                <img src="./image/img2.jpg" alt="">
+            </div>
+            <div class="myslide">
+                <div class="text">3 / 6</div>
+                <img src="./image/img3.jpg" alt="">
+            </div>
+            <div class="myslide">
+                <div class="text">4 / 6</div>
+                <img src="./image/img4.jpg" alt="">
+            </div>
+            <div class="myslide">
+                <div class="text">5 / 6</div>
+                <img src="./image/img5.jpg" alt="">
+            </div>
+            <div class="myslide">
+                <div class="text">6 / 6</div>
+                <img src="./image/img6.jpg" alt="">
+            </div>
+                 
+    
+            <a href="#" onclick="plus(-1)" class="prev"><<</a>
+            <a href="#" onclick="plus(1)" class="next">>></a>
+            
+            <div class="innertext">
+                <p class="changetext">Please inter a text</p>
+            </div>
+    
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="./image/img.jpg" alt="Image 1111" class="dot" onclick="current(1)">
+            </div>
+            <div class="column">
+                <img src="./image/img2.jpg" alt="Image 2222" class="dot" onclick="current(2)">
+            </div>
+            <div class="column">
+                <img src="./image/img3.jpg" alt="Image 3333" class="dot" onclick="current(3)">
+            </div>
+            <div class="column">
+                <img src="./image/img4.jpg" alt="Image 4444" class="dot" onclick="current(4)">
+            </div>
+            <div class="column">
+                <img src="./image/img5.jpg" alt="Image 5555" class="dot" onclick="current(5)">
+            </div>
+    
+            <div class="column">
+                <img src="./image/img6.jpg" alt="Image 6666" class="dot" onclick="current(6)">
+            </div>
+        </div>
+        
+        
+    
+      </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
